@@ -1,0 +1,26 @@
+import 'package:auto_route/auto_route.dart';
+import 'package:base_flutter/customer/models/provider_rate_model.dart';
+import 'package:base_flutter/customer/screens/provider_details/ProviderDetailsImports.dart';
+import 'package:base_flutter/general/blocks/lang_cubit/lang_cubit.dart';
+import 'package:base_flutter/general/constants/MyColors.dart';
+import 'package:base_flutter/general/utilities/icons/my_flutter_app_icons.dart';
+import 'package:base_flutter/general/utilities/routers/RouterImports.gr.dart';
+import 'package:base_flutter/general/utilities/utils_functions/UtilsImports.dart';
+import 'package:base_flutter/res.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
+import 'package:tf_custom_widgets/tf_custom_widgets.dart';
+import 'package:tf_custom_widgets/utils/generic_cubit/generic_cubit.dart';
+import 'package:tf_custom_widgets/widgets/MyText.dart';
+import 'package:tf_validator/tf_validator.dart';
+
+part 'BuildFollow.dart';
+part 'BuildInfo.dart';
+part 'BuildRequestButton.dart';
+part 'BuildReviewCard.dart';
+part 'BuildReviews.dart';
+part 'BuildSocialIcons.dart';
+part 'BuildTitleRow.dart';

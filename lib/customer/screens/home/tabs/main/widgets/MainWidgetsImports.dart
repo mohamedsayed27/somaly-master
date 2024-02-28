@@ -1,0 +1,33 @@
+import 'package:animations/animations.dart';
+import 'package:auto_route/auto_route.dart';
+import 'package:base_flutter/customer/models/message_model.dart';
+import 'package:base_flutter/customer/models/service_model.dart';
+import 'package:base_flutter/customer/screens/home/tabs/main/MainPageImports.dart';
+import 'package:base_flutter/customer/screens/services/ServicesImports.dart';
+import 'package:base_flutter/general/blocks/lang_cubit/lang_cubit.dart';
+import 'package:base_flutter/general/blocks/user_cubit/user_cubit.dart';
+import 'package:base_flutter/general/constants/MyColors.dart';
+import 'package:base_flutter/general/models/UserModel.dart';
+import 'package:base_flutter/general/utilities/icons/my_flutter_app_icons.dart';
+import 'package:base_flutter/general/utilities/routers/RouterImports.gr.dart';
+import 'package:base_flutter/general/utilities/utils_functions/LoadingDialog.dart';
+import 'package:base_flutter/general/widgets/DefaultAppBar.dart';
+import 'package:base_flutter/res.dart';
+import 'package:flutter/material.dart';
+import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
+import 'package:tf_custom_widgets/tf_custom_widgets.dart';
+import 'package:tf_custom_widgets/widgets/GenericListView.dart';
+import 'package:tf_custom_widgets/widgets/MyText.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:tf_validator/localization/LocalizationMethods.dart';
+import 'package:tf_validator/validator/Validator.dart';
+
+part 'BuildCloseDrawerIcon.dart';
+part 'BuildDrawerTile.dart';
+part 'BuildMainAppBar.dart';
+part 'BuildMainDrawer.dart';
+part 'BuildGroupChatInput.dart';
+part 'BuildGroupChatMessages.dart';
+part 'BuildLeftMsg.dart';
+part 'BuildRightMsg.dart';
+

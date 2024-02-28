@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "476155038528",
+    "project_id": "somaly-a8b40",
+    "storage_bucket": "somaly-a8b40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476155038528:android:cf23a605e29ada352108a5",
+        "android_client_info": {
+          "package_name": "sa.aait.aspbranch.somaly"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPShFqKKHDTxrJzLebnAonAPdy_DQa-q4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

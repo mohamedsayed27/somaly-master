@@ -1,0 +1,20 @@
+import 'package:animations/animations.dart';
+import 'package:auto_route/auto_route.dart';
+import 'package:base_flutter/customer/models/order_model.dart';
+import 'package:base_flutter/general/constants/MyColors.dart';
+import 'package:base_flutter/general/utilities/icons/my_flutter_app_icons.dart';
+import 'package:base_flutter/general/utilities/routers/RouterImports.gr.dart';
+import 'package:base_flutter/provider/models/ads_model.dart';
+import 'package:base_flutter/provider/screens/ProOrderDetails/ProOrderDetailsImports.dart';
+import 'package:base_flutter/provider/screens/pro_home/tabs/main_home/ProMainHomeImports.dart';
+import 'package:carousel_slider/carousel_slider.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:tf_custom_widgets/tf_custom_widgets.dart';
+import 'package:tf_custom_widgets/widgets/MyText.dart';
+import 'package:tf_validator/localization/LocalizationMethods.dart';
+
+part 'BuildProMainHomeAppBar.dart';
+part 'BuildProMainHomeBody.dart';
+part 'BuildProMainHomeCarousel.dart';
+part 'BuildProMainHomeItem.dart';
